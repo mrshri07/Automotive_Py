@@ -39,7 +39,7 @@ try:
 
 #             time sleep
             time.sleep(1)
-
+# few  lines added
 except KeyboardInterrupt:
     print("\n simulation stopped")
 
