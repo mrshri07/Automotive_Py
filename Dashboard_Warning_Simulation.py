@@ -20,12 +20,12 @@ def dashboard_Warning():
             if oil_pressure > 80:
                 print(f"the oil pressure is reached to {oil_pressure:.2f} ")
 
-            time.sleep(2)
+            time.sleep(1)
 
 
-    try:
-        dashboard_Warning()
-    except KeyboardInterrupt:
+try:
+    dashboard_Warning()
+except KeyboardInterrupt:
         print("warning is done ")
 
 
